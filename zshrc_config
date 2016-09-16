@@ -1,4 +1,5 @@
 zstyle ':completion:*' rehash true	
 export HOMEBREW_GITHUB_API_TOKEN="74aa64bd01f543d575eae83c5279bdf6b2257b0b"
+export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin:$PATH
 bindkey 'l' down-case-word
 bindkey '' vi-kill-line
